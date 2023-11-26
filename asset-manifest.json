@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/locators-map/static/css/main.1da77c37.css",
+    "main.js": "/locators-map/static/js/main.8a933700.js",
+    "static/js/787.7fcd3bf4.chunk.js": "/locators-map/static/js/787.7fcd3bf4.chunk.js",
+    "index.html": "/locators-map/index.html",
+    "main.1da77c37.css.map": "/locators-map/static/css/main.1da77c37.css.map",
+    "main.8a933700.js.map": "/locators-map/static/js/main.8a933700.js.map",
+    "787.7fcd3bf4.chunk.js.map": "/locators-map/static/js/787.7fcd3bf4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1da77c37.css",
+    "static/js/main.8a933700.js"
+  ]
+}
