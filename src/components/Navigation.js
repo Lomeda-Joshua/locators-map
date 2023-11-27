@@ -6,7 +6,7 @@ export default function Navigation(){
         
         <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg bg-white navbar-light position-sticky top-0 shadow py-2">
           <div className="container">
-            <Link className="navbar-brand mr-lg-5" to={`/`}>
+            <Link className="navbar-brand mr-lg-5" to={`/locators-map`}>
               <img src={Locators_map_logo} alt="locators-map" />
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@ export default function Navigation(){
               <div className="navbar-collapse-header">
                 <div className="row">
                   <div className="col-6 collapse-brand">
-                    <Link to={`/`}>
+                    <Link to={`/locators-map`}>
                       <img src={Locators_map_logo} alt="locators-map"/>
                     </Link>
                   </div>
@@ -36,13 +36,13 @@ export default function Navigation(){
               <ul className="navbar-nav align-items-lg-center ml-lg-auto">
 
               <li className="nav-item">
-                    <Link to = {`/`} className="nav-link" role="button">
+                    <Link to = {`/locators-map`} className="nav-link" role="button">
                         {/* <i class="ni ni-collection d-lg-none"></i> */}
                         <span className="nav-link-inner--text">Home</span>
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to={`/locators-map`} className="nav-link" role="button">
+                    <Link to={`/locator-map`} className="nav-link" role="button">
                         {/* <i class="ni ni-collection d-lg-none"></i> */}
                         <span className="nav-link-inner--text">Locators Map</span>
                     </Link>

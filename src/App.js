@@ -27,11 +27,11 @@ function App() {
         errorElement: <Error_page />,
         children: [
           {
-            path: "/",
+            path: "/locators-map",
             element: <Home />
           },
           {
-            path: "/locators-map",
+            path: "/locator-map",
             element: <Locators_Map />
           },
           {
