@@ -1,11 +1,18 @@
 import {Link} from 'react-router-dom';
+
+import Hero_Banner from '../assets/image/hero_banner/hero_v1.png';
+import Manila_Layout from '../assets/image/maps/manila_layout_v3.png'
+import BPI_Map from '../assets/image/brand/map BPI v4.png';
+import Pamphlet_logo from '../assets/image/brand/pamplet-icon-V2.png';
+
+
 import Footer from '../components/Footer';
 
 export default function Home(){
     return(
         <>
         <div className = "sub-content container">
-            <img style={{maxWidth:"100%", margin:"90px 0px"}} src="./assets/img/hero_banner/hero_v1.png" />
+            <img style={{maxWidth:"100%", margin:"90px 0px"}} src={Hero_Banner} alt="hero-banner"/>
         </div>
     
 
@@ -24,7 +31,7 @@ export default function Home(){
                                 <h5 className = "display-4 mb-0" style = {{textTransform:"uppercase",fontWeight:"700", fontSize:"13px", textAlign:"left"}} >BUREAU OF PLANT INDUSTRY, 692 SAN ANDRES ST., MALATE, MANILA, NATIONAL CAPITAL REGION, PHILIPPINES, 1004</h5>
                         </div>
                         <div class="col-lg-5">
-                                <img style={{maxWidth:"100%", width:"300px"}} src="./assets/img/maps/manila_layout_v3.png" />
+                                <img style={{maxWidth:"100%", width:"300px"}} src={Manila_Layout} alt="manila=map"/>
                         </div>
                     </div>
                 </div>
@@ -72,7 +79,7 @@ export default function Home(){
                 <div class="row row-grid align-items-start" style={{ margin:"90px 0", padding:"150px 20px"}}>
                     
                     <div class="col-lg-5">
-                        <img style={{width:"80%"}} src="./assets/img/brand/map BPI v4.png" />   
+                        <img style={{width:"80%"}} src={BPI_Map} alt="locators-map-image"/>   
                     </div>
 
                     <div className="col-lg-7 aling-items-start">
@@ -103,7 +110,7 @@ export default function Home(){
                 </div>
 
                 <h3 style ={{ textTransform:"uppercase", fontSize:"20px", fontWeight:"800", width:"60%", margin:"auto", padding:"20px"}}>grab a copy of the locators map brochure at the information and computer section</h3>
-                <img style={{width:"35%", margin:"30px 0px"}} src="./assets/img/brand/pamplet-icon-V2.png" />  
+                <img style={{width:"35%", margin:"30px 0px"}} src={Pamphlet_logo} alt="pamphlet-icon"/>  
 
             </div>
         </div>

@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import Locators_map_logo from '../assets/image/brand/locators-map-logo-v4.png';
 
 export default function Navigation(){
     return(
@@ -6,7 +7,7 @@ export default function Navigation(){
         <nav id="navbar-main" className="navbar navbar-main navbar-expand-lg bg-white navbar-light position-sticky top-0 shadow py-2">
           <div className="container">
             <Link className="navbar-brand mr-lg-5" to={`/`}>
-              <img src="./assets/img/brand/locators-map-logo-v4.png" />
+              <img src={Locators_map_logo} alt="locators-map" />
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -16,7 +17,7 @@ export default function Navigation(){
                 <div className="row">
                   <div className="col-6 collapse-brand">
                     <Link to={`/`}>
-                      <img src="./assets/img/brand/locators-map-logo-v4.png" />
+                      <img src={Locators_map_logo} alt="locators-map"/>
                     </Link>
                   </div>
                   <div className="col-6 collapse-close">

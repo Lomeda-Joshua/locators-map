@@ -7,11 +7,11 @@ import RootLayout from './layouts/RootLayout';
 
 // Pages
 import Home from './pages/Home';
-import Locators_map from './pages/Locators_map';
-import Division_profiles from './pages/Division_profiles';
+import Locators_Map from './pages/Locators_Map';
+import Division_Profiles from './pages/Division_Profiles';
 import Inquiries from './pages/Inquiries';
-import Contact_us from './pages/Contact_us';
-import Error_page from './pages/Error_page';
+import Contact_us from './pages/Contact_Us';
+import Error_page from './pages/Error_Page';
 
 // Style sheet
 import './App.css';
@@ -32,11 +32,11 @@ function App() {
           },
           {
             path: "/locators-map",
-            element: <Locators_map />
+            element: <Locators_Map />
           },
           {
             path: "/division-profiles",
-            element: <Division_profiles />
+            element: <Division_Profiles />
           },
           {
             path: "/inquiries",

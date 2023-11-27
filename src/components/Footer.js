@@ -1,10 +1,10 @@
-
+import Locators_Map_Logo_White from '../assets/image/brand/locators-map-logo-v4-white.png';
 
 export default function Footer(){
     return(
         <div className = "app-footer">
             <div className="container d-flex">
-                <img style = {{width:"30%", marginTop:"30px", marginBottom:"20px"}} src="./assets/img/brand/locators-map-logo-v4-white.png" />
+                <img style = {{width:"30%", marginTop:"30px", marginBottom:"20px"}} src={Locators_Map_Logo_White} alt="locators-map-logo" /> 
             </div>
             
                 <div class="container">                    
