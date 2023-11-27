@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/locators-map/static/css/main.1da77c37.css",
-    "main.js": "/locators-map/static/js/main.8a933700.js",
-    "static/js/787.7fcd3bf4.chunk.js": "/locators-map/static/js/787.7fcd3bf4.chunk.js",
-    "index.html": "/locators-map/index.html",
-    "main.1da77c37.css.map": "/locators-map/static/css/main.1da77c37.css.map",
-    "main.8a933700.js.map": "/locators-map/static/js/main.8a933700.js.map",
-    "787.7fcd3bf4.chunk.js.map": "/locators-map/static/js/787.7fcd3bf4.chunk.js.map"
+    "main.css": "/bpi-locators-map/static/css/main.1da77c37.css",
+    "main.js": "/bpi-locators-map/static/js/main.72575af2.js",
+    "static/js/787.7fcd3bf4.chunk.js": "/bpi-locators-map/static/js/787.7fcd3bf4.chunk.js",
+    "static/media/manila_layout_v3.png": "/bpi-locators-map/static/media/manila_layout_v3.c791615f3db74331028d.png",
+    "static/media/map BPI v4.png": "/bpi-locators-map/static/media/map BPI v4.21275922142ede684238.png",
+    "static/media/locators-map-logo-v4-white.png": "/bpi-locators-map/static/media/locators-map-logo-v4-white.95c3425eadb447835156.png",
+    "static/media/hero_v1.png": "/bpi-locators-map/static/media/hero_v1.c1f82b2a58bca574ccc4.png",
+    "static/media/pamplet-icon-V2.png": "/bpi-locators-map/static/media/pamplet-icon-V2.4197f3b4dc20409778f3.png",
+    "static/media/locators-map-logo-v4.png": "/bpi-locators-map/static/media/locators-map-logo-v4.1cd32d3883df73906ea9.png",
+    "index.html": "/bpi-locators-map/index.html",
+    "main.1da77c37.css.map": "/bpi-locators-map/static/css/main.1da77c37.css.map",
+    "main.72575af2.js.map": "/bpi-locators-map/static/js/main.72575af2.js.map",
+    "787.7fcd3bf4.chunk.js.map": "/bpi-locators-map/static/js/787.7fcd3bf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1da77c37.css",
-    "static/js/main.8a933700.js"
+    "static/js/main.72575af2.js"
   ]
 }
