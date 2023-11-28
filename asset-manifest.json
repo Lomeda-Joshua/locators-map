@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/locators-map/static/css/main.1da77c37.css",
-    "main.js": "/locators-map/static/js/main.695f8b98.js",
+    "main.js": "/locators-map/static/js/main.daff7ec5.js",
     "static/js/787.7fcd3bf4.chunk.js": "/locators-map/static/js/787.7fcd3bf4.chunk.js",
     "static/media/manila_layout_v3.png": "/locators-map/static/media/manila_layout_v3.c791615f3db74331028d.png",
     "static/media/map bpi v3.2.png": "/locators-map/static/media/map bpi v3.2.6f6d9b2ab7ec908b5203.png",
     "static/media/map BPI v4.png": "/locators-map/static/media/map BPI v4.21275922142ede684238.png",
+    "static/media/hero-banner-v4.png": "/locators-map/static/media/hero-banner-v4.dbf3a1ab9d07761ef818.png",
     "static/media/locators-map-logo-v4-white.png": "/locators-map/static/media/locators-map-logo-v4-white.95c3425eadb447835156.png",
-    "static/media/hero-banner-v3.png": "/locators-map/static/media/hero-banner-v3.b36ebb5a4efac73d920d.png",
     "static/media/isometric bpi logo v2.png": "/locators-map/static/media/isometric bpi logo v2.aea1334f968c32c42431.png",
     "static/media/PPSSD NBG 1.png": "/locators-map/static/media/PPSSD NBG 1.b5a157786e52241599ae.png",
     "static/media/NPQSD NBG 1.png": "/locators-map/static/media/NPQSD NBG 1.fecdbb20cabf731ddd77.png",
@@ -18,11 +18,11 @@
     "static/media/aed-NBG-01.png": "/locators-map/static/media/aed-NBG-01.79b11bd340e4c8160005.png",
     "index.html": "/locators-map/index.html",
     "main.1da77c37.css.map": "/locators-map/static/css/main.1da77c37.css.map",
-    "main.695f8b98.js.map": "/locators-map/static/js/main.695f8b98.js.map",
+    "main.daff7ec5.js.map": "/locators-map/static/js/main.daff7ec5.js.map",
     "787.7fcd3bf4.chunk.js.map": "/locators-map/static/js/787.7fcd3bf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1da77c37.css",
-    "static/js/main.695f8b98.js"
+    "static/js/main.daff7ec5.js"
   ]
 }
