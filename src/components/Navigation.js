@@ -38,31 +38,31 @@ export default function Navigation(){
               <li className="nav-item">
                     <Link to = {`/locators-map`} className="nav-link" role="button">
                         {/* <i class="ni ni-collection d-lg-none"></i> */}
-                        <span className="nav-link-inner--text">Home</span>
+                        <span className="nav-link-inner--text" style={{fontWeight:"900"}}>Home</span>
                     </Link>
                 </li>
                 <li className="nav-item">
                     <Link to={`/locator-map`} className="nav-link" role="button">
                         {/* <i class="ni ni-collection d-lg-none"></i> */}
-                        <span className="nav-link-inner--text">Locators Map</span>
+                        <span className="nav-link-inner--text" style={{fontWeight:"900"}}>Locators Map</span>
                     </Link>
                 </li>
                 <li className="nav-item">
                     <Link to={`/division-profiles`} className="nav-link" role="button">
                         {/* <i class="ni ni-collection d-lg-none"></i> */}
-                        <span className="nav-link-inner--text">Division Profiles</span>
+                        <span className="nav-link-inner--text" style={{fontWeight:"900"}}>Division Profiles</span>
                     </Link>
                 </li>
                 <li className="nav-item">
                     <Link to={`/inquiries`} className="nav-link" role="button">
                         {/* <i class="ni ni-collection d-lg-none"></i> */}
-                        <span className="nav-link-inner--text">Inquiries</span>
+                        <span className="nav-link-inner--text" style={{fontWeight:"900"}}>Inquiries</span>
                     </Link>
                 </li>
                 <li className="nav-item">
                     <Link to={`/contact-us`} className="nav-link" role="button">
                         {/* <i class="ni ni-collection d-lg-none"></i> */}
-                        <span className="nav-link-inner--text">Contact Us</span>
+                        <span className="nav-link-inner--text" style={{fontWeight:"900"}}>Contact Us</span>
                     </Link>
                 </li>
 

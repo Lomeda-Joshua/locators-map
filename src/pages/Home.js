@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-import Hero_Banner from '../assets/image/hero_banner/hero-banner-v3.png';
+import Hero_Banner from '../assets/image/hero_banner/hero-banner-v4.png';
 import Manila_Layout from '../assets/image/maps/manila_layout_v3.png'
 import BPI_Map from '../assets/image/brand/map BPI v4.png';
 import Pamphlet_logo from '../assets/image/brand/isometric bpi logo v2.png';
@@ -28,7 +28,7 @@ export default function Home(){
                                 <p style={{textAlign:"justify",fontSize:"16px", fontWeight:"500"}}>The Bureau of Plant Industry (BPI) is situated at 692 San Andres Street, Malate, Manila. This strategic location in the capital city of the Philippines places the BPI in a central and accessible position. 
                                 <br/><br/>As an essential government agency, the BPI plays a vital role in the country's agricultural and plant-related initiatives. Its presence in Manila ensures that it is well-connected to government offices, research institutions, and industry stakeholders. </p>
                                 <hr />
-                                <h5 className = "display-4 mb-0" style = {{textTransform:"uppercase",fontWeight:"700", fontSize:"13px", textAlign:"left"}} >BUREAU OF PLANT INDUSTRY, 692 SAN ANDRES ST., MALATE, MANILA, NATIONAL CAPITAL REGION, PHILIPPINES, 1004</h5>
+                                <h5 className = "display-4 mb-0" style = {{textTransform:"uppercase",fontWeight:"700", fontSize:"12px", textAlign:"left", color:"white", backgroundColor:"#241c1c", padding:"12px"}} >BUREAU OF PLANT INDUSTRY, 692 SAN ANDRES ST., MALATE, MANILA, NATIONAL CAPITAL REGION, PHILIPPINES, 1004</h5>
                         </div>
                         <div class="col-lg-5">
                                 <img style={{maxWidth:"100%", width:"300px"}} src={Manila_Layout} alt="manila=map"/>
