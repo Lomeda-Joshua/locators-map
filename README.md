@@ -1,5 +1,5 @@
 # Bureau of Plant Industry Locators map project
-![Image for the BPI central office locators's map branding and logo](/assets/img/docs/locators-map-logo-v4-white.png)
+![Image for the BPI central office locators's map branding and logo](../assets/img/docs/locators-map-logo-v4-white.png)
 This project is made with React JS library as a UI derived project to promote the Locators map tri-fold brochure project
 
 ## Summary
