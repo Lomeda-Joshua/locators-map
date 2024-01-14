@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 import Locators_Map_Logo_White from '../assets/image/brand/locators-map-logo-v4-white.png';
 
 export default function Footer(){
@@ -38,15 +40,14 @@ export default function Footer(){
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link" data-toggle="dropdown" role="button" style={{ textAlign:"left"}}>
+                                        <a href="#" class="nav-link" role="button" style={{ textAlign:"left"}}>
                                             <span class="nav-link-inner--text" style={{ color:"white", fontWeight:"500", textTransform:"uppercase", textAlign:"left", fontSize:"15px"}}>bureau directory</span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link" data-toggle="dropdown" role="button" style={{  textAlign:"left", fontSize:"15px"}}>
-                                    
+                                        <Link to = {'/division-pages'} class="nav-link" role="button" style={{  textAlign:"left", fontSize:"15px"}}>
                                             <span class="nav-link-inner--text" style={{ color:"white", fontWeight:"500", textTransform:"uppercase" }}>division pages</span>
-                                        </a>
+                                        </Link>
                                     </li>
                             </ul>
                         </div>

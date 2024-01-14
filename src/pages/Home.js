@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 import Hero_Banner from '../assets/image/hero_banner/hero-banner-v4.png';
 import Manila_Layout from '../assets/image/maps/manila_layout_v3.png'
-import BPI_Map from '../assets/image/brand/map BPI v4.png';
+import BPI_Map from '../assets/image/maps/map bpi v3.4.png';
 import Pamphlet_logo from '../assets/image/brand/isometric bpi logo v2.png';
 
 import Footer from '../components/Footer';
@@ -21,8 +21,9 @@ export default function Home(){
                     <div class="row row-grid align-items-start" style={{ margin:"90px 0", padding:"150px 20px"}}>
 
                         <div class="col-lg-7">
-                                <div className="box--text" style={{backgroundColor:"#fcb04f", padding:"10px", marginBottom:"20px"}}>
-                                    <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"white", fontSize:"20px"}}>Location of the Office</h3>
+                                {/* <div className="box--text" style={{backgroundColor:"#fcb04f", padding:"10px", marginBottom:"20px"}}> */}
+                                <div className="box--text" style={{ padding:"10px", marginBottom:"20px"}}>
+                                    <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"#fcb04f", fontSize:"25px"}}>Location of the Office</h3>
                                 </div>
                             
                                 <p style={{textAlign:"justify",fontSize:"16px", fontWeight:"500"}}>The Bureau of Plant Industry (BPI) is situated at 692 San Andres Street, Malate, Manila. This strategic location in the capital city of the Philippines places the BPI in a central and accessible position. 
@@ -46,9 +47,10 @@ export default function Home(){
 
                         <div className = "col-md-12" style={{marginBottom:"30px"}}>
 
-                        <div className="box--text" style={{backgroundColor:"#fcb04f", marginLeft:"auto",marginRight:"auto", padding:"10px", marginBottom:"30px"}}>
-                            <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"white", fontSize:"20px"}}>Customer Inquiries</h3>
-                        </div>  
+
+                        <div className="box--text" style={{ padding:"10px", marginBottom:"20px"}}>
+                                <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"#fcb04f", fontSize:"25px"}}>Customer Inquiries</h3>
+                        </div>
 
                             <h3 style = {{textTransform:"uppercase",fontWeight:"900", fontSize:"25px", color:"#4f7942", textAlign:"center"}}>Where can we point you to our office today?</h3>
                             
@@ -83,10 +85,12 @@ export default function Home(){
                     </div>
 
                     <div className="col-lg-7 aling-items-start">
-                        <div className="box--text" style={{backgroundColor:"#fcb04f", padding:"10px", marginBottom:"20px"}}>
-                            <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"white", fontSize:"20px"}}>About the locator's map</h3>
+
+
+                        <div className="box--text" style={{ padding:"10px", marginBottom:"20px"}}>
+                                <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"#fcb04f", fontSize:"25px"}}>About the locator's map</h3>
                         </div>
-                    
+
                         <p style={{textAlign:"justify",fontSize:"16px", fontWeight:"500"}}> The BPI Central Office locators map is a visual representation that pinpoints specific locations, offering an overview of various points of interest within the two BPI compounds. The map highlights key offices and areas, such as the bureau divisions, and administration offices, providing visitors and users with a convenient reference to navigate the BPI Central Office. <br/><br/>
                         The maps serve as valuable tool both the website and the tri-fold IEC for seeking essential services, offering a user-friendly and informative images and descriptions to easily identify and locate specific destinations within the map and compounds.</p>
                     
@@ -106,9 +110,9 @@ export default function Home(){
         <div className = "sub-content container">
 
             <div className="sub-content" style={{ margin:"90px 0", padding:"150px 20px"}}>
-                <div className="box--text" style={{backgroundColor:"#fcb04f", marginLeft:"auto",marginRight:"auto", padding:"10px"}}>
-                    <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"white", fontSize:"20px"}}>Locators Map IEC</h3>
-                </div>
+                <div className="box--text" style={{ padding:"10px", marginBottom:"20px"}}>
+                                <h3 className = "display-3 mb-0" style = {{textTransform:"uppercase",fontWeight:"900",color:"#fcb04f", fontSize:"25px"}}>Locators Map IEC</h3>
+                        </div>
 
                 <h3 style ={{ textTransform:"uppercase", fontSize:"20px", fontWeight:"600", margin:"auto", padding:"20px"}}>grab a copy of the locators map brochure at the information and computer section</h3>
                 <img style={{maxWidth:"100%", width:"400px", margin:"20px 0px"}} src={Pamphlet_logo} alt="pamphlet-icon"/>  

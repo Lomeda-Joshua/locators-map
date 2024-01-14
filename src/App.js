@@ -12,6 +12,7 @@ import Division_Profiles from './pages/Division_Profiles';
 import Inquiries from './pages/Inquiries';
 import Contact_us from './pages/Contact_Us';
 import Error_page from './pages/Error_Page';
+import Division_Pages from './pages/Division_Pages';
 
 // Style sheet
 import './App.css';
@@ -45,6 +46,10 @@ function App() {
           {
             path: "/contact-us",
             element: <Contact_us />
+          },
+          {
+            path: "/division-pages",
+            element:  <Division_Pages/>
           }
         ]
       },
